@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movie List</string>
+    <string name="movieName">enter movie name</string>
+    <string name="desc">enter movie descreption</string>
+    <string name="urlPicture">enter URL pic</string>
+    <string name="add">+</string>
+    <string name="deleteAll">delete all item</string>
+    <string name="exit">close app</string>
+    <string name="deleteItem">delete item</string>
+    <string name="edit">edit</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="addMenual">add menual</string>
+    <string name="addFromInternet">add from internet</string>
+    <string name="search">search</string>
+    <string name="goSearch">go</string>
+    <string name="movieNameInet">enter movie name</string>
+    <string name="ranking">ranking</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_from_internet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.example.yuda.movielist.addFromInternetActivity"
+    android:background="#f9902e">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="90">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/searchTV"
+            android:layout_weight="20"
+            android:text="@string/search"
+            android:textSize="24sp"
+            android:layout_margin="5dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/titleET"
+            android:layout_weight="50"
+            android:hint="@string/movieNameInet"
+            android:background="#efae16" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/goSearchBtn"
+            android:layout_weight="20"
+            android:text="@string/goSearch"
+            android:background="#29eeb6" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:id="@+id/movieFromInterntLV"
+        android:cacheColorHint="#25aceb" />
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/cancelSearchBtn"
+        android:layout_weight="10"
+        android:background="#29eeb6" />
+</LinearLayout>
